@@ -2,6 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: Roboto, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .header-links a,
@@ -13,6 +14,7 @@ body {
 .everything {
     display: flex;
     flex-direction: column;
+    
 }
 
 .header {
@@ -72,4 +74,46 @@ body {
     border: 0px;
     border-radius: 10px;
     color: white;
+    border: 1px solid white;
+    
 }
+
+#pic-title {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 15px;
+    color: #748D92;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.tongue,
+.duo,
+.multiple,
+.brown-white {
+    width: 200px;
+    height: 200px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    color: #748D92;
+}
+
+.image-container img {
+    border: 5px solid #124E66;
+    border-radius: 20px;
+}
+
