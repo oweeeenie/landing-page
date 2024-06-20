@@ -185,3 +185,9 @@ body {
     margin-top: 0px;
     opacity: 0.6;
 }
+
+footer {
+    background-color: #212A31;
+    text-align: center;
+    color: white;
+}
