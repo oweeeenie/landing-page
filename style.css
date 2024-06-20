@@ -117,3 +117,23 @@ body {
     border-radius: 20px;
 }
 
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    height: 180px;
+    
+}
+#quote-text {
+    color: #2E3944;
+    font-size: 30px;
+    font-style: italic;
+    padding: 0px 200px;
+}
+
+#quote-author {
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 50px;
+    padding-right: 210px;
+}
