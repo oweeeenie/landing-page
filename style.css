@@ -137,3 +137,51 @@ body {
     padding-bottom: 50px;
     padding-right: 210px;
 }
+
+.sign-container {
+    background-color: #124E66;
+    display: flex;
+    margin: 50px 200px;
+    border-radius: 7px;
+    height: 100px;
+    align-items: center;
+}
+
+#sign-top, 
+#sign-bottom,
+#sign-button {
+    color: #D3D9D4; 
+}
+
+#sign-button {
+    background-color: #124E66;
+    height: 35px;
+    border-radius: 10px;
+    border: solid white 2px;
+    width: 110px;
+}
+
+#sign-top {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.sign-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    font-weight: 600;
+}
+
+.sign-button-container {
+    display: flex;  
+    justify-content: flex-end;
+    flex: 1;
+    padding-right: 400px;
+}
+
+
+#sign-bottom {
+    margin-top: 0px;
+    opacity: 0.6;
+}
